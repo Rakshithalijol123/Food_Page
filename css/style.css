@@ -1,0 +1,639 @@
+
+*:focus{
+    outline: none;
+}
+.container{
+    background-image: url(../background.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    height: 100vh;
+
+    border-radius: 5px;
+    background-color: burlywood;
+    display: flex;
+    flex-flow: row wrap;
+}
+.navbar ul{
+    display: flex;
+    flex-flow: row wrap;
+}
+.navbar li{
+    list-style: none;
+    margin: 20px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+}
+/* about searchbox */
+.searchbox{
+    display: flex;
+    flex-flow: row wrap;  
+    position: absolute;
+    top: 46px;
+    right: 150px;
+}
+input{
+    color: black;
+    font-size: 30px;
+    padding: 10px 60px;
+    margin: 1px;
+    border: 0.2px solod white;
+    background-color: transparent;
+    border-radius: 5px;
+}
+button{
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+/* only hover property */
+
+.navbar li a:hover{
+    color: tomato;
+}
+input:hover{
+    border: 1px solid black;
+}
+button:hover{
+    color: black;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0.2px solid black;
+    border-radius: 5px;
+} 
+
+
+/* about logo */
+
+.logo{
+    display: flex;
+    position: absolute;
+    bottom: 280px;
+    left: 550px;
+    width: 250px;
+    height: 200px;  
+  
+}
+.logo1{
+    background-image: url(../logo.jpeg);
+    border-radius: 50%;
+    height: 200px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-attachment:center;
+    background-size: cover;
+      
+}
+
+
+/* about welcome */
+
+.welcome{
+    
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 235px;
+    right: 350px;
+
+}
+.welcome p{
+    color: white;
+    font-size: 50px;
+}
+.welcome{
+    cursor: pointer;
+    
+}
+.welcome p:hover{
+    color: tomato;
+    
+}
+
+/* about order */
+.order{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 210px;
+    right: 630px;
+}
+.order p{
+    color: white;
+    font-size: 35px;
+
+}
+
+
+/* about buttons */
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 100px;
+    left: 85px;
+}
+.btn{
+    color: blue;
+    font-size: 35px;
+    margin: 10px 10px;
+    padding: 10px 70px;
+    border-radius: 10px;
+
+}
+.btn:hover{
+    color: white;
+}
+
+/* css for 2nd page */
+
+.container2{
+    background-image: url(../back3.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    
+    
+}
+
+/* pictures and buttons */
+#box1{
+    background-image: url(../idli\ vada.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    border: 1px solid white;
+    height: 200px;
+    width: 250px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+#para1{
+    position: relative;
+    top: 10px;
+    left: 68px;
+    color: white;
+    font-size: 20px;
+    font: large;
+}
+#btns1{
+    position: relative;
+    top: -1px;
+    left: 68px;
+    color: darkred;
+
+}
+#btns1:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 0.2px solid orangered;
+}
+#box2{
+    background-image: url(../dosa.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    border: 1px solid white;
+    height: 200px;
+    width: 250px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+#para2{
+    position: relative;
+    top: 10px;
+    left: 113px;
+    color: white;
+    font-size: 20px;
+    font: large;
+}
+#btns2{
+    position: relative;
+    top: -1px;
+    left: 68px;
+    color: darkred;
+
+}
+#btns2:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 0.2px solid orangered;
+}
+#box3{
+    background-image: url(../chole\ batture.jpeg-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    border: 1px solid white;
+    height: 200px;
+    width: 250px;
+    position: relative;
+    top: 20px;
+    left: 200px;
+}
+#para3{
+    position: relative;
+    top: 210px;
+    left: 0px;
+    color: white;
+    font-size: 20px;
+    font: large;
+}
+#btns3{
+    position: absolute;
+    top: 272px;
+    left: 520px;
+    color: darkred;
+
+}
+#btns3:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 0.2px solid orangered;
+}
+#box4{
+    background-image: url(../pohe.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    border: 1px solid white;
+    height: 200px;
+    width: 250px;
+    position: relative;
+    top: 20px;
+    left: 200px;
+}
+#para4{
+    position: relative;
+    top: 210px;
+    left: 5px;
+    color: white;
+    font-size: 20px;
+    font: large;
+}
+#btns4{
+    position: absolute;
+    top: 272px;
+    right: 375px;
+    color: darkred;
+
+}
+#btns4:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 0.2px solid orangered;
+}
+#box5{
+    background-image: url(../lemo\ rice.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    border: 1px solid white;
+    height: 200px;
+    width: 250px;
+    position: relative;
+    top: 320px;
+    right: 585px;
+}
+#para5{
+    position: relative;
+    top: 505px;
+    left: -780px;
+    color: white;
+    font-size: 20px;
+    font: large;
+}
+#btns5{
+    position: absolute;
+    bottom: 210px;
+    left: 515px;
+    color: darkred;
+
+}
+#btns5:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 0.2px solid orangered;
+}
+
+
+/* css for 3rd page */
+
+.container3{
+    background-image: url(../back3.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+#box6{
+    background-image: url(../frenchfries.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    border: 1px solid white;
+    height: 500px;
+    width: 600px;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}
+#para6{
+    color: white;
+    font-size: 20px;
+    font: large;
+    position: absolute;
+    bottom: 220px;
+    left: 190px;
+}
+#btns6{
+    position: absolute;
+    bottom: 190px;
+    left: 190px;
+}
+#btns6:hover{
+    cursor: pointer;
+    color: darkred;
+    background-color: transparent;
+    border: 0.2px solid orangered;
+
+}
+#box7{
+    background-image: url(../lemo\ rice.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    border: 1px solid white;
+    height: 500px;
+    width: 600px;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+#para7{
+    color: white;
+    font-size: 20px;
+    font: large;
+    position: absolute;
+    bottom: 220px;
+    right: 230px;
+}
+#btns7{
+    position: absolute;
+    bottom: 190px;
+    right: 235px;
+}
+#btns7:hover{
+    cursor: pointer;
+    color: darkred;
+    background-color: transparent;
+    border: 0.2px solid orangered;
+
+}
+
+/* css for 4th page */
+
+.container4{
+    background-image: url(../back3.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    
+    
+}
+
+/* pictures and buttons */
+#box8{
+    background-image: url(../frenchfries.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    border: 1px solid white;
+    height: 200px;
+    width: 250px;
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+
+#para8{
+    position: relative;
+    top: 10px;
+    left: 68px;
+    color: white;
+    font-size: 20px;
+    font: large;
+}
+#btns8{
+    position: relative;
+    top: -1px;
+    left: 55px;
+    color: darkred;
+
+}
+#btns8:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 0.2px solid orangered;
+}
+#box9{
+    background-image: url(../lays.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    border: 1px solid white;
+    height: 200px;
+    width: 250px;
+    position: relative;
+    top: 35px;
+    left: 20px;
+}
+#para9{
+    position: relative;
+    top: 27px;
+    left: 119px;
+    color: white;
+    font-size: 20px;
+    font: large;
+}
+#btns9{
+    position: relative;
+    top: 17px;
+    left: 50px;
+    color: darkred;
+
+}
+#btns9:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 0.2px solid orangered;
+}
+#box10{
+    background-image: url(../pizza.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    border: 1px solid white;
+    height: 200px;
+    width: 250px;
+    position: relative;
+    top: 20px;
+    left: 200px;
+}
+#para10{
+    position: relative;
+    top: 210px;
+    left: 42px;
+    color: white;
+    font-size: 20px;
+    font: large;
+}
+#btns10{
+    position: absolute;
+    top: 272px;
+    left: 490px;
+    color: darkred;
+
+}
+#btns10:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 0.2px solid orangered;
+}
+#box11{
+    background-image: url(../samosa.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    border: 1px solid white;
+    height: 200px;
+    width: 250px;
+    position: relative;
+    top: 20px;
+    left: 350px;
+}
+#para11{
+    position: relative;
+    top: 210px;
+    left: 180px;
+    color: white;
+    font-size: 20px;
+    font: large;
+}
+#btns11{
+    position: absolute;
+    top: 272px;
+    right: 315px;
+    color: darkred;
+
+}
+#btns11:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 0.2px solid orangered;
+}
+#box12{
+    background-image: url(../burger.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    border: 1px solid white;
+    height: 200px;
+    width: 250px;
+    position: relative;
+    top: 345px;
+    right: 430px;
+}
+#para12{
+    position: relative;
+    top: 537px;
+    left: -605px;
+    color: white;
+    font-size: 20px;
+    font: large;
+}
+#btns12{
+    position: absolute;
+    bottom: 183px;
+    left: 495px;
+    color: darkred;
+
+}
+#btns12:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 0.2px solid orangered;
+}
+
+/* about entry page */
+
+.container5{
+    background-image: url(../entry.jpeg-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.login{
+    
+    display: flex;
+    flex-flow: column wrap;
+    position: absolute;
+    top: 206px;
+    left: 420px;
+}
+.signin{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.entry{
+    color: white;
+}
+.entry input{
+    color: white;
+    border: 1px solid white;
+}
+.password{
+    font-size: 23px;
+    color: darkblue;
+
+}
+
+
+
+
+
+
