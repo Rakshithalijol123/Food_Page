@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to food webpage</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- about 1st page -->
+
+    <div class="container">
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <div class="searchbox">
+                    <input type="Search" placeholder="Search">
+                    <button>Search</button>
+                </div>
+                <div class="logo">
+                    <div class="logo1"></div>
+                </div>
+                <div class="welcome">
+                    <p>
+                        <marquee behavior="slide" direction="left">!!!.....WELCOME TO FOOD VLOG.....!!!</marquee>
+                    </p>
+                </div>
+                <div class="order">
+                    <p>
+                        <marquee behavior="slide" direction="left"></marquee>......Order Now......
+                    </p>
+                </div>
+                <div class="buttons">
+                    <button class="btn" id="btn1">BREAKFAST</button>
+                    <button class="btn" id="btn2">MEALS</button>
+                    <button class="btn" id="btn3">SNACKS</button>
+                    <button class="btn" id="btn4">DESSERTS</button>
+                </div>
+
+            </nav>
+        </header>
+    </div>
+
+    <!-- about 2nd page -->
+    <div class="container2">
+        <div class="background1">
+            <div class="box" id="box1"> </div>
+            <p class="para" id="para1"><i>IDLI and VADA</i></p>
+            <button class="btns" id="btns1">60$ Order Now</button>
+            <div class="box" id="box2">
+
+            </div>
+            <p class="para" id="para2"><i> DOSA</i></p>
+            <button class="btns" id="btns2">50$ Order Now</button>
+        </div>
+        <div class="box" id="box3">
+
+        </div>
+        <p class="para" id="para3"><i>CHOLE BATTURE</i></p>
+        <button class="btns" id="btns3">40$ Order Now</button>
+        <div class="box" id="box4">
+
+        </div>
+        <p class="para" id="para4"><i>LEMON POHE</i></p>
+        <button class="btns" id="btns4">40$ Order Now</button>
+        <div class="box" id="box5">
+
+        </div>
+        <p class="para" id="para5"><i>LEMON RICE</i></p>
+        <button class="btns" id="btns5">50$ Order Now</button>
+    </div>
+
+    <!-- about 3rd page -->
+
+
+    <div class="container3">
+        <div class="background2">
+            <div class="box" id="box6">
+
+            </div>
+            <p class="para" id="para6"><i>SOUTH INDIAN THALI</i></p>
+            <button class="btns" id="btns6">180$ Order Now</button>
+            <div class="box" id="box7">
+
+            </div>
+            <p class="para" id="para7"><i>NORTH INDIAN THALI</i></p>
+            <button class="btns" id="btns7">180$ Order Now</button>
+
+        </div>
+    </div>
+    <!-- about 4th page -->
+
+
+    <div class="container4">
+        <div class="background2">
+            <div class="box" id="box8"> </div>
+            <p class="para" id="para8"><i>FRENCH FRIES</i></p>
+            <button class="btns" id="btns8">50$ Order Now</button>
+            <div class="box" id="box9">
+
+            </div>
+            <p class="para" id="para9"><i> LAYS</i></p>
+            <button class="btns" id="btns9">50$ Order Now</button>
+        </div>
+        <div class="box" id="box10">
+
+        </div>
+        <p class="para" id="para10"><i>PIZZA</i></p>
+        <button class="btns" id="btns10">299$ Order Now</button>
+        <div class="box" id="box11">
+
+        </div>
+        <p class="para" id="para11"><i>SAMOSA</i></p>
+        <button class="btns" id="btns11">50$ Order Now</button>
+        <div class="box" id="box12">
+
+        </div>
+        <p class="para" id="para12"><i>BURGER</i></p>
+        <button class="btns" id="btns12">129$ Order Now</button>
+    </div>
+
+    <div class="back">BACK</div>
+
+    <!-- for entry page -->
+
+    <div class="container5">
+        <div class="login">
+            <h1 class="signin"><i>.....SIGN IN.....</i></h1>
+            <h2 class="entry" id="entry1">E-MAIL : <input type="email" placeholder="abc@gmail.com"></h2>
+            <h2 class="entry" id="entry2">PASSWORD : <input type="password" placeholder="password"></h2>
+            <button class="signinbutton">SIGN IN</button>
+            <p class="password">forgotten password?</p>
+        </div>
+
+
+
+    </div>
+    
+
+
+
+
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $('.container').hide()
+    $('.container3').hide()
+    $('.container2').hide()
+    $('.container4').hide()
+    $('.back').hide()
+    $(document).ready(function () {
+        $('#btn1').click(function () {
+            $('.container').hide()
+            $('.back').show(100)
+            $('.container2').show(300)
+
+        })
+        $('#btn2').click(function () {
+            $('.container').hide()
+            $('.container2').hide()
+            $('.back').show(100)
+            $('.container3').show(300)
+
+        })
+        $('#btn3').click(function () {
+
+            $('.container').hide()
+            $('.container2').hide()
+            $('.container3').hide()
+            $('.back').show(100)
+            $('.container4').show(300)
+
+        })
+        $('.signinbutton').click(function(){
+            $('.container5').hide()
+            $('.container2').hide()
+            $('.container3').hide()
+            $('.container4').hide()
+            $('.container').show(300)
+
+
+        })
+        $('.back').click(function(){
+            $('.container5').hide()
+            $('.container2').hide()
+            $('.container3').hide()
+            $('.container4').hide()
+            $('.container').show(200)
+
+
+        })
+
+    })
+
+</script>
+
+</html>
